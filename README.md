@@ -1,7 +1,7 @@
 # FindYourSurf
 
 ## To Run
-Use 'pod install' in terminal to install dependencies.
+Use 'pod install' in terminal to install dependencies in project folder.
 
 Make sure GoogleService-Info.plist has proper authentications.
 
