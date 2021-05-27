@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		64BC02F65A34DA8925B36C65 /* libPods-FindYourSurf.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CC40ACD61BC40BF061DD6D68 /* libPods-FindYourSurf.a */; };
 		7E298DA025B284BE005B4F57 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E298D9F25B284BE005B4F57 /* AppDelegate.swift */; };
 		7E298DA225B284BE005B4F57 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E298DA125B284BE005B4F57 /* SceneDelegate.swift */; };
 		7E298DA425B284BE005B4F57 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E298DA325B284BE005B4F57 /* ViewController.swift */; };
@@ -15,6 +16,20 @@
 		7E298DAC25B284C0005B4F57 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E298DAA25B284C0005B4F57 /* LaunchScreen.storyboard */; };
 		7E298DB725B284C0005B4F57 /* FindYourSurfTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E298DB625B284C0005B4F57 /* FindYourSurfTests.swift */; };
 		7E298DC225B284C1005B4F57 /* FindYourSurfUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E298DC125B284C1005B4F57 /* FindYourSurfUITests.swift */; };
+		7E5604BB25B298E3006F919B /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7E5604B625B29801006F919B /* Poppins-Bold.ttf */; };
+		7E5604BF25B29922006F919B /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7E5604B725B29801006F919B /* Poppins-Regular.ttf */; };
+		7E5604C325B29924006F919B /* Poppins-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7E5604B525B29801006F919B /* Poppins-Black.ttf */; };
+		7E79FFA125B6056200968208 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E79FFA025B6056200968208 /* SettingsViewController.swift */; };
+		7E9417D325B37A03001BEA6A /* MeasureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E9417D225B37A03001BEA6A /* MeasureViewController.swift */; };
+		7E9417D925B387AE001BEA6A /* BoardType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E9417D825B387AE001BEA6A /* BoardType.swift */; };
+		7E9417DE25B3887C001BEA6A /* Recommendation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E9417DD25B3887C001BEA6A /* Recommendation.swift */; };
+		7E9417E925B3CA90001BEA6A /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7E9417E525B3C8CB001BEA6A /* Poppins-SemiBold.ttf */; };
+		7E9417EE25B3CD6F001BEA6A /* ContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E9417ED25B3CD6F001BEA6A /* ContentViewController.swift */; };
+		7EB082622660245700224DF8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7EB082612660245700224DF8 /* GoogleService-Info.plist */; };
+		7ED4871125B4F86400B3B3EC /* Beach.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ED4871025B4F86400B3B3EC /* Beach.swift */; };
+		7ED4872925B5078700B3B3EC /* BeachCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ED4872825B5078700B3B3EC /* BeachCell.swift */; };
+		8F19C40E5968B9F867C37100 /* libPods-FindYourSurfTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3880CAD5D54CA4AF1F1C62AF /* libPods-FindYourSurfTests.a */; };
+		EF9094B64F6E623E1A180A84 /* libPods-FindYourSurf-FindYourSurfUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B50A8289BE5FEDEB94E9265 /* libPods-FindYourSurf-FindYourSurfUITests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +50,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1B6BF803B275871AEB554DFE /* Pods-FindYourSurf.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindYourSurf.release.xcconfig"; path = "Target Support Files/Pods-FindYourSurf/Pods-FindYourSurf.release.xcconfig"; sourceTree = "<group>"; };
+		3880CAD5D54CA4AF1F1C62AF /* libPods-FindYourSurfTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FindYourSurfTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		55F3DABADB59CE0847F8F8FB /* Pods-FindYourSurfTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindYourSurfTests.release.xcconfig"; path = "Target Support Files/Pods-FindYourSurfTests/Pods-FindYourSurfTests.release.xcconfig"; sourceTree = "<group>"; };
+		7B50A8289BE5FEDEB94E9265 /* libPods-FindYourSurf-FindYourSurfUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FindYourSurf-FindYourSurfUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E298D9C25B284BE005B4F57 /* FindYourSurf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FindYourSurf.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E298D9F25B284BE005B4F57 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7E298DA125B284BE005B4F57 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +68,23 @@
 		7E298DBD25B284C1005B4F57 /* FindYourSurfUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FindYourSurfUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E298DC125B284C1005B4F57 /* FindYourSurfUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindYourSurfUITests.swift; sourceTree = "<group>"; };
 		7E298DC325B284C1005B4F57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E5604B525B29801006F919B /* Poppins-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Black.ttf"; sourceTree = "<group>"; };
+		7E5604B625B29801006F919B /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		7E5604B725B29801006F919B /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		7E79FFA025B6056200968208 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		7E9417D225B37A03001BEA6A /* MeasureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeasureViewController.swift; sourceTree = "<group>"; };
+		7E9417D825B387AE001BEA6A /* BoardType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardType.swift; sourceTree = "<group>"; };
+		7E9417DD25B3887C001BEA6A /* Recommendation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recommendation.swift; sourceTree = "<group>"; };
+		7E9417E525B3C8CB001BEA6A /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
+		7E9417ED25B3CD6F001BEA6A /* ContentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewController.swift; sourceTree = "<group>"; };
+		7EB082612660245700224DF8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		7ED4871025B4F86400B3B3EC /* Beach.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Beach.swift; sourceTree = "<group>"; };
+		7ED4872825B5078700B3B3EC /* BeachCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeachCell.swift; sourceTree = "<group>"; };
+		8C5666354052C165D019E186 /* Pods-FindYourSurfTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindYourSurfTests.debug.xcconfig"; path = "Target Support Files/Pods-FindYourSurfTests/Pods-FindYourSurfTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9613916086995DDE6D7B91BD /* Pods-FindYourSurf-FindYourSurfUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindYourSurf-FindYourSurfUITests.release.xcconfig"; path = "Target Support Files/Pods-FindYourSurf-FindYourSurfUITests/Pods-FindYourSurf-FindYourSurfUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B49D73E6508E1BBEA44340C1 /* Pods-FindYourSurf.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindYourSurf.debug.xcconfig"; path = "Target Support Files/Pods-FindYourSurf/Pods-FindYourSurf.debug.xcconfig"; sourceTree = "<group>"; };
+		CC40ACD61BC40BF061DD6D68 /* libPods-FindYourSurf.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FindYourSurf.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1E5AF6D9629E72F52E8CACB /* Pods-FindYourSurf-FindYourSurfUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindYourSurf-FindYourSurfUITests.debug.xcconfig"; path = "Target Support Files/Pods-FindYourSurf-FindYourSurfUITests/Pods-FindYourSurf-FindYourSurfUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64BC02F65A34DA8925B36C65 /* libPods-FindYourSurf.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F19C40E5968B9F867C37100 /* libPods-FindYourSurfTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +108,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF9094B64F6E623E1A180A84 /* libPods-FindYourSurf-FindYourSurfUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +122,8 @@
 				7E298DB525B284C0005B4F57 /* FindYourSurfTests */,
 				7E298DC025B284C1005B4F57 /* FindYourSurfUITests */,
 				7E298D9D25B284BE005B4F57 /* Products */,
+				C5B2B1A2E5E561BBD2F23FD1 /* Pods */,
+				C7FC013EC3CF8624239F4C29 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,12 +140,16 @@
 		7E298D9E25B284BE005B4F57 /* FindYourSurf */ = {
 			isa = PBXGroup;
 			children = (
+				7ED4870C25B4F49600B3B3EC /* Controllers */,
+				7E9417D725B38775001BEA6A /* Models */,
+				7E5604AC25B29265006F919B /* Fonts */,
 				7E298D9F25B284BE005B4F57 /* AppDelegate.swift */,
+				7ED4870225B4F46400B3B3EC /* Views */,
 				7E298DA125B284BE005B4F57 /* SceneDelegate.swift */,
-				7E298DA325B284BE005B4F57 /* ViewController.swift */,
 				7E298DA525B284BE005B4F57 /* Main.storyboard */,
 				7E298DA825B284C0005B4F57 /* Assets.xcassets */,
 				7E298DAA25B284C0005B4F57 /* LaunchScreen.storyboard */,
+				7EB082612660245700224DF8 /* GoogleService-Info.plist */,
 				7E298DAD25B284C0005B4F57 /* Info.plist */,
 			);
 			path = FindYourSurf;
@@ -128,6 +173,69 @@
 			path = FindYourSurfUITests;
 			sourceTree = "<group>";
 		};
+		7E5604AC25B29265006F919B /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				7E5604B525B29801006F919B /* Poppins-Black.ttf */,
+				7E5604B625B29801006F919B /* Poppins-Bold.ttf */,
+				7E9417E525B3C8CB001BEA6A /* Poppins-SemiBold.ttf */,
+				7E5604B725B29801006F919B /* Poppins-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		7E9417D725B38775001BEA6A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7E9417D825B387AE001BEA6A /* BoardType.swift */,
+				7E9417DD25B3887C001BEA6A /* Recommendation.swift */,
+				7ED4871025B4F86400B3B3EC /* Beach.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7ED4870225B4F46400B3B3EC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7ED4872825B5078700B3B3EC /* BeachCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7ED4870C25B4F49600B3B3EC /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7E9417D225B37A03001BEA6A /* MeasureViewController.swift */,
+				7E9417ED25B3CD6F001BEA6A /* ContentViewController.swift */,
+				7E298DA325B284BE005B4F57 /* ViewController.swift */,
+				7E79FFA025B6056200968208 /* SettingsViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		C5B2B1A2E5E561BBD2F23FD1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B49D73E6508E1BBEA44340C1 /* Pods-FindYourSurf.debug.xcconfig */,
+				1B6BF803B275871AEB554DFE /* Pods-FindYourSurf.release.xcconfig */,
+				F1E5AF6D9629E72F52E8CACB /* Pods-FindYourSurf-FindYourSurfUITests.debug.xcconfig */,
+				9613916086995DDE6D7B91BD /* Pods-FindYourSurf-FindYourSurfUITests.release.xcconfig */,
+				8C5666354052C165D019E186 /* Pods-FindYourSurfTests.debug.xcconfig */,
+				55F3DABADB59CE0847F8F8FB /* Pods-FindYourSurfTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C7FC013EC3CF8624239F4C29 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CC40ACD61BC40BF061DD6D68 /* libPods-FindYourSurf.a */,
+				7B50A8289BE5FEDEB94E9265 /* libPods-FindYourSurf-FindYourSurfUITests.a */,
+				3880CAD5D54CA4AF1F1C62AF /* libPods-FindYourSurfTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +243,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7E298DC625B284C1005B4F57 /* Build configuration list for PBXNativeTarget "FindYourSurf" */;
 			buildPhases = (
+				14B0DA43BC5E77F7A81C251F /* [CP] Check Pods Manifest.lock */,
 				7E298D9825B284BE005B4F57 /* Sources */,
 				7E298D9925B284BE005B4F57 /* Frameworks */,
 				7E298D9A25B284BE005B4F57 /* Resources */,
+				EE115326442D1A934F9F60F4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,6 +262,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7E298DC925B284C1005B4F57 /* Build configuration list for PBXNativeTarget "FindYourSurfTests" */;
 			buildPhases = (
+				AECB374081E5D41E9C11B944 /* [CP] Check Pods Manifest.lock */,
 				7E298DAE25B284C0005B4F57 /* Sources */,
 				7E298DAF25B284C0005B4F57 /* Frameworks */,
 				7E298DB025B284C0005B4F57 /* Resources */,
@@ -170,9 +281,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7E298DCC25B284C1005B4F57 /* Build configuration list for PBXNativeTarget "FindYourSurfUITests" */;
 			buildPhases = (
+				1DFF42E5373EFABF3476C7D6 /* [CP] Check Pods Manifest.lock */,
 				7E298DB925B284C1005B4F57 /* Sources */,
 				7E298DBA25B284C1005B4F57 /* Frameworks */,
 				7E298DBB25B284C1005B4F57 /* Resources */,
+				A8BE72728C63359F489043E7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -231,6 +344,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E9417E925B3CA90001BEA6A /* Poppins-SemiBold.ttf in Resources */,
+				7EB082622660245700224DF8 /* GoogleService-Info.plist in Resources */,
+				7E5604C325B29924006F919B /* Poppins-Black.ttf in Resources */,
+				7E5604BF25B29922006F919B /* Poppins-Regular.ttf in Resources */,
+				7E5604BB25B298E3006F919B /* Poppins-Bold.ttf in Resources */,
 				7E298DAC25B284C0005B4F57 /* LaunchScreen.storyboard in Resources */,
 				7E298DA925B284C0005B4F57 /* Assets.xcassets in Resources */,
 				7E298DA725B284BE005B4F57 /* Main.storyboard in Resources */,
@@ -253,6 +371,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		14B0DA43BC5E77F7A81C251F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FindYourSurf-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1DFF42E5373EFABF3476C7D6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FindYourSurf-FindYourSurfUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A8BE72728C63359F489043E7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FindYourSurf-FindYourSurfUITests/Pods-FindYourSurf-FindYourSurfUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FindYourSurf-FindYourSurfUITests/Pods-FindYourSurf-FindYourSurfUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FindYourSurf-FindYourSurfUITests/Pods-FindYourSurf-FindYourSurfUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AECB374081E5D41E9C11B944 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FindYourSurfTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE115326442D1A934F9F60F4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FindYourSurf/Pods-FindYourSurf-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FindYourSurf/Pods-FindYourSurf-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FindYourSurf/Pods-FindYourSurf-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7E298D9825B284BE005B4F57 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -260,7 +481,14 @@
 			files = (
 				7E298DA425B284BE005B4F57 /* ViewController.swift in Sources */,
 				7E298DA025B284BE005B4F57 /* AppDelegate.swift in Sources */,
+				7ED4872925B5078700B3B3EC /* BeachCell.swift in Sources */,
+				7E79FFA125B6056200968208 /* SettingsViewController.swift in Sources */,
+				7ED4871125B4F86400B3B3EC /* Beach.swift in Sources */,
 				7E298DA225B284BE005B4F57 /* SceneDelegate.swift in Sources */,
+				7E9417D325B37A03001BEA6A /* MeasureViewController.swift in Sources */,
+				7E9417DE25B3887C001BEA6A /* Recommendation.swift in Sources */,
+				7E9417D925B387AE001BEA6A /* BoardType.swift in Sources */,
+				7E9417EE25B3CD6F001BEA6A /* ContentViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +661,7 @@
 		};
 		7E298DC725B284C1005B4F57 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B49D73E6508E1BBEA44340C1 /* Pods-FindYourSurf.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -452,6 +681,7 @@
 		};
 		7E298DC825B284C1005B4F57 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B6BF803B275871AEB554DFE /* Pods-FindYourSurf.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -471,6 +701,7 @@
 		};
 		7E298DCA25B284C1005B4F57 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C5666354052C165D019E186 /* Pods-FindYourSurfTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -493,6 +724,7 @@
 		};
 		7E298DCB25B284C1005B4F57 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55F3DABADB59CE0847F8F8FB /* Pods-FindYourSurfTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +747,7 @@
 		};
 		7E298DCD25B284C1005B4F57 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1E5AF6D9629E72F52E8CACB /* Pods-FindYourSurf-FindYourSurfUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -535,6 +768,7 @@
 		};
 		7E298DCE25B284C1005B4F57 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9613916086995DDE6D7B91BD /* Pods-FindYourSurf-FindYourSurfUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

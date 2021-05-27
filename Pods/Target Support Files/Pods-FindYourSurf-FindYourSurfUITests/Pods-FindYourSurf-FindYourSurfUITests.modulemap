@@ -1,0 +1,6 @@
+module Pods_FindYourSurf_FindYourSurfUITests {
+  umbrella header "Pods-FindYourSurf-FindYourSurfUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
