@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ViewController: UIViewController, UIGestureRecognizerDelegate {
+class WelcomeViewController: UIViewController, UIGestureRecognizerDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,7 +20,12 @@ class ViewController: UIViewController, UIGestureRecognizerDelegate {
         addTopStackViewConstraints()
         constructTopStackView()
         
-        //Build Button
+        // Add Welcome Text
+        let welcomeText = createWelcomeText()
+        view.addSubview(welcomeText)
+        addWelcomeTextConstraints(welcomeText)
+        
+        // Build Button
         view.addSubview(startButton)
         addButtonConstraints()
     }
@@ -35,13 +40,13 @@ class ViewController: UIViewController, UIGestureRecognizerDelegate {
     
     // MARK: - Button
     
-    private let startButton: UIButton = {
+    private lazy var startButton: UIButton = {
         let button = UIButton(type: .roundedRect)
         button.translatesAutoresizingMaskIntoConstraints = false
         button.setTitle("START", for: .normal)
         button.titleLabel?.font =  UIFont(name: "Poppins-Bold", size: 18)
-        button.setTitleColor(#colorLiteral(red: 0.09803921569, green: 0.2509803922, blue: 0.431372549, alpha: 1), for: .normal)
-        button.backgroundColor = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 1)
+        button.setTitleColor(UIColor.customColor(.surfBlue), for: .normal)
+        button.backgroundColor = .white
         button.layer.cornerRadius = 20
         button.addTarget(self, action: #selector(buttonClicked), for: .touchUpInside)
         return button
@@ -60,19 +65,51 @@ class ViewController: UIViewController, UIGestureRecognizerDelegate {
         NSLayoutConstraint.activate(constraints)
     }
     
+    // MARK: - Welcome Text
+    
+    func createWelcomeText() -> UITextView {
+        let t = UITextView()
+        let style = NSMutableParagraphStyle()
+        style.lineSpacing = 5
+        let attributes = [NSAttributedString.Key.paragraphStyle : style]
+        t.attributedText = NSAttributedString(string: "What size of surfboard is right for you?", attributes: attributes)
+        t.contentInsetAdjustmentBehavior = .automatic
+        t.center = self.view.center
+        t.translatesAutoresizingMaskIntoConstraints = false
+        t.font = (UIFont(name: "Poppins-Bold", size: 40))
+        t.textColor = .white
+        t.backgroundColor = nil
+        t.textAlignment = .center
+        return t
+    }
+    
+    private func addWelcomeTextConstraints(_ welcomeText: UITextView) {
+        var constraints = [NSLayoutConstraint]()
+        
+        // Add
+        constraints.append(welcomeText.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor, constant: -90))
+        constraints.append(welcomeText.centerXAnchor.constraint(equalTo: view.centerXAnchor))
+        constraints.append(welcomeText.widthAnchor.constraint(equalToConstant: 336))
+        constraints.append(welcomeText.heightAnchor.constraint(equalToConstant: 250))
+        
+        // Apply
+        NSLayoutConstraint.activate(constraints)
+    }
+    
+    
     // MARK: - Top Stack View
     
-    private let appName: UITextField = {
+    private lazy var appName: UITextField = {
         let appName = UITextField(frame: CGRect(x: 40, y: 3, width: 133, height: 30))
         appName.text = "Find Your Surf"
         appName.isUserInteractionEnabled = false
         appName.font = UIFont(name: "Poppins-Bold", size: 18)
         appName.backgroundColor = nil
-        appName.textColor = #colorLiteral(red: 0.09803921569, green: 0.2509803922, blue: 0.431372549, alpha: 1)
+        appName.textColor = UIColor.customColor(.surfBlue)
         return appName
     }()
     
-    private let topStackView: UIStackView = {
+    private lazy var topStackView: UIStackView = {
         let topStackView = UIStackView()
         topStackView.translatesAutoresizingMaskIntoConstraints = false
         return topStackView
@@ -111,10 +148,8 @@ class ViewController: UIViewController, UIGestureRecognizerDelegate {
     // MARK: - Obj-C Functions
     
     @objc func buttonClicked(){
-        let storyboard = UIStoryboard(name: "Main", bundle: nil)
-        let measureVC = storyboard.instantiateViewController(identifier: "MeasureViewController")
+        let measureVC = MeasureViewController()
 
-        
         measureVC.modalPresentationStyle = .fullScreen
         measureVC.modalTransitionStyle = .crossDissolve
         

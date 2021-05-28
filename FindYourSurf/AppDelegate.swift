@@ -17,6 +17,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         didFinishLaunchingWithOptions launchOptions:
             [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         
+        window = UIWindow()
+        window?.rootViewController = WelcomeViewController()
+        window?.makeKeyAndVisible()
+            
         FirebaseApp.configure()
         let db = Firestore.firestore()
         

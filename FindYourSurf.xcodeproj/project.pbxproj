@@ -10,8 +10,7 @@
 		64BC02F65A34DA8925B36C65 /* libPods-FindYourSurf.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CC40ACD61BC40BF061DD6D68 /* libPods-FindYourSurf.a */; };
 		7E298DA025B284BE005B4F57 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E298D9F25B284BE005B4F57 /* AppDelegate.swift */; };
 		7E298DA225B284BE005B4F57 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E298DA125B284BE005B4F57 /* SceneDelegate.swift */; };
-		7E298DA425B284BE005B4F57 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E298DA325B284BE005B4F57 /* ViewController.swift */; };
-		7E298DA725B284BE005B4F57 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E298DA525B284BE005B4F57 /* Main.storyboard */; };
+		7E298DA425B284BE005B4F57 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E298DA325B284BE005B4F57 /* WelcomeViewController.swift */; };
 		7E298DA925B284C0005B4F57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E298DA825B284C0005B4F57 /* Assets.xcassets */; };
 		7E298DAC25B284C0005B4F57 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E298DAA25B284C0005B4F57 /* LaunchScreen.storyboard */; };
 		7E298DB725B284C0005B4F57 /* FindYourSurfTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E298DB625B284C0005B4F57 /* FindYourSurfTests.swift */; };
@@ -24,8 +23,11 @@
 		7E9417D925B387AE001BEA6A /* BoardType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E9417D825B387AE001BEA6A /* BoardType.swift */; };
 		7E9417DE25B3887C001BEA6A /* Recommendation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E9417DD25B3887C001BEA6A /* Recommendation.swift */; };
 		7E9417E925B3CA90001BEA6A /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7E9417E525B3C8CB001BEA6A /* Poppins-SemiBold.ttf */; };
-		7E9417EE25B3CD6F001BEA6A /* ContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E9417ED25B3CD6F001BEA6A /* ContentViewController.swift */; };
+		7E9417EE25B3CD6F001BEA6A /* BeachesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E9417ED25B3CD6F001BEA6A /* BeachesViewController.swift */; };
 		7EB082622660245700224DF8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7EB082612660245700224DF8 /* GoogleService-Info.plist */; };
+		7EB082CE26602A9600224DF8 /* AutoLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EB082CD26602A9600224DF8 /* AutoLayout.swift */; };
+		7EB082D626602B4000224DF8 /* Firebase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EB082D526602B4000224DF8 /* Firebase.swift */; };
+		7EB082DB2660693300224DF8 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EB082DA2660693300224DF8 /* Colors.swift */; };
 		7ED4871125B4F86400B3B3EC /* Beach.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ED4871025B4F86400B3B3EC /* Beach.swift */; };
 		7ED4872925B5078700B3B3EC /* BeachCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ED4872825B5078700B3B3EC /* BeachCell.swift */; };
 		8F19C40E5968B9F867C37100 /* libPods-FindYourSurfTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3880CAD5D54CA4AF1F1C62AF /* libPods-FindYourSurfTests.a */; };
@@ -57,8 +59,7 @@
 		7E298D9C25B284BE005B4F57 /* FindYourSurf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FindYourSurf.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E298D9F25B284BE005B4F57 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7E298DA125B284BE005B4F57 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7E298DA325B284BE005B4F57 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		7E298DA625B284BE005B4F57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7E298DA325B284BE005B4F57 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		7E298DA825B284C0005B4F57 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7E298DAB25B284C0005B4F57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7E298DAD25B284C0005B4F57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -76,8 +77,11 @@
 		7E9417D825B387AE001BEA6A /* BoardType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardType.swift; sourceTree = "<group>"; };
 		7E9417DD25B3887C001BEA6A /* Recommendation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recommendation.swift; sourceTree = "<group>"; };
 		7E9417E525B3C8CB001BEA6A /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
-		7E9417ED25B3CD6F001BEA6A /* ContentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewController.swift; sourceTree = "<group>"; };
+		7E9417ED25B3CD6F001BEA6A /* BeachesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeachesViewController.swift; sourceTree = "<group>"; };
 		7EB082612660245700224DF8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		7EB082CD26602A9600224DF8 /* AutoLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoLayout.swift; sourceTree = "<group>"; };
+		7EB082D526602B4000224DF8 /* Firebase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Firebase.swift; sourceTree = "<group>"; };
+		7EB082DA2660693300224DF8 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		7ED4871025B4F86400B3B3EC /* Beach.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Beach.swift; sourceTree = "<group>"; };
 		7ED4872825B5078700B3B3EC /* BeachCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeachCell.swift; sourceTree = "<group>"; };
 		8C5666354052C165D019E186 /* Pods-FindYourSurfTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindYourSurfTests.debug.xcconfig"; path = "Target Support Files/Pods-FindYourSurfTests/Pods-FindYourSurfTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -140,13 +144,13 @@
 		7E298D9E25B284BE005B4F57 /* FindYourSurf */ = {
 			isa = PBXGroup;
 			children = (
+				7EB082CC26602A8600224DF8 /* Helpers */,
 				7ED4870C25B4F49600B3B3EC /* Controllers */,
 				7E9417D725B38775001BEA6A /* Models */,
 				7E5604AC25B29265006F919B /* Fonts */,
 				7E298D9F25B284BE005B4F57 /* AppDelegate.swift */,
 				7ED4870225B4F46400B3B3EC /* Views */,
 				7E298DA125B284BE005B4F57 /* SceneDelegate.swift */,
-				7E298DA525B284BE005B4F57 /* Main.storyboard */,
 				7E298DA825B284C0005B4F57 /* Assets.xcassets */,
 				7E298DAA25B284C0005B4F57 /* LaunchScreen.storyboard */,
 				7EB082612660245700224DF8 /* GoogleService-Info.plist */,
@@ -194,6 +198,16 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
+		7EB082CC26602A8600224DF8 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				7EB082CD26602A9600224DF8 /* AutoLayout.swift */,
+				7EB082D526602B4000224DF8 /* Firebase.swift */,
+				7EB082DA2660693300224DF8 /* Colors.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		7ED4870225B4F46400B3B3EC /* Views */ = {
 			isa = PBXGroup;
 			children = (
@@ -206,8 +220,8 @@
 			isa = PBXGroup;
 			children = (
 				7E9417D225B37A03001BEA6A /* MeasureViewController.swift */,
-				7E9417ED25B3CD6F001BEA6A /* ContentViewController.swift */,
-				7E298DA325B284BE005B4F57 /* ViewController.swift */,
+				7E9417ED25B3CD6F001BEA6A /* BeachesViewController.swift */,
+				7E298DA325B284BE005B4F57 /* WelcomeViewController.swift */,
 				7E79FFA025B6056200968208 /* SettingsViewController.swift */,
 			);
 			path = Controllers;
@@ -351,7 +365,6 @@
 				7E5604BB25B298E3006F919B /* Poppins-Bold.ttf in Resources */,
 				7E298DAC25B284C0005B4F57 /* LaunchScreen.storyboard in Resources */,
 				7E298DA925B284C0005B4F57 /* Assets.xcassets in Resources */,
-				7E298DA725B284BE005B4F57 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -479,16 +492,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7E298DA425B284BE005B4F57 /* ViewController.swift in Sources */,
+				7E298DA425B284BE005B4F57 /* WelcomeViewController.swift in Sources */,
 				7E298DA025B284BE005B4F57 /* AppDelegate.swift in Sources */,
 				7ED4872925B5078700B3B3EC /* BeachCell.swift in Sources */,
 				7E79FFA125B6056200968208 /* SettingsViewController.swift in Sources */,
 				7ED4871125B4F86400B3B3EC /* Beach.swift in Sources */,
 				7E298DA225B284BE005B4F57 /* SceneDelegate.swift in Sources */,
+				7EB082D626602B4000224DF8 /* Firebase.swift in Sources */,
 				7E9417D325B37A03001BEA6A /* MeasureViewController.swift in Sources */,
+				7EB082DB2660693300224DF8 /* Colors.swift in Sources */,
+				7EB082CE26602A9600224DF8 /* AutoLayout.swift in Sources */,
 				7E9417DE25B3887C001BEA6A /* Recommendation.swift in Sources */,
 				7E9417D925B387AE001BEA6A /* BoardType.swift in Sources */,
-				7E9417EE25B3CD6F001BEA6A /* ContentViewController.swift in Sources */,
+				7E9417EE25B3CD6F001BEA6A /* BeachesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -524,14 +540,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		7E298DA525B284BE005B4F57 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7E298DA625B284BE005B4F57 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		7E298DAA25B284C0005B4F57 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
